@@ -17,29 +17,29 @@ A soon to be application for analyzing Strava running data with machine learning
 - **scikit-learn** - Machine learning
 - **pandas/numpy** - Data processing
 - **Jupyter** - Data analysis notebooks
-```
+
 
 ### Data Processing
 
-1. Place your Strava data in `backend/data/raw/activities.csv`
+1. Place your Strava data in `backend/data/raw/activities.csv
 2. Open and run notebooks in order:
-   - `01_data_cleaning.ipynb` - Clean and structure data
-   - `02_eda.ipynb` - Exploratory analysis
-   - `03_feature_engineering.ipynb` - Create ML features
-   - `04_model_training.ipynb` - Train prediction model
+   - 01_data_cleaning.ipynb` - Clean and structure data
+   - 02_eda.ipynb` - Exploratory analysis
+   - 03_feature_engineering.ipynb` - Create ML features
+   - 04_model_training.ipynb` - Train prediction model
 
 
- Roadmap
+### Roadmap
 
 - [x] Project structure setup
 - [x] Backend API skeleton
 - [ ] Data cleaning and processing
 - [ ] Exploratory data analysis
-- [ ] Feature engineering
 - [ ] ML model training
+- [ ] ML model predictions
 - [ ] Frontend development
 - [ ] Docker containerization
-- [ ] Deployment
+
 
 
 
